@@ -3,9 +3,13 @@
     ["babel-plugin-meteoralias", {
     	"aliases": [
     		{
-				"path": "preact-compat",
-      			"alias": "react"
-    		}
+				"to": "preact-compat",
+      	"from": "react"
+    		},
+        {
+          "from": "react-dom",
+          "to": "preact-compat"
+        }
     	]
     }]
   ]
