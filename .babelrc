@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    ["babel-plugin-meteoralias", {
+    	"aliases": [
+    		{
+				"path": "preact-compat",
+      			"alias": "react"
+    		}
+    	]
+    }]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "tempApp",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.36",
+    "babel-plugin-meteoralias": "^1.0.6",
+    "meteor-babel": "^7.0.0-beta.40-2",
+    "meteor-node-stubs": "^0.3.2",
+    "preact-compat": "^3.18.0"
+  }
+}
