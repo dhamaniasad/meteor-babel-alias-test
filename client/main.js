@@ -3,6 +3,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import React from "react";
 import { render } from 'react-dom';
+import { form } from 'react-inform';
 
 import './main.html';
 
@@ -11,6 +12,7 @@ Template.hello.onCreated(function helloOnCreated() {
   this.counter = new ReactiveVar(0);
   window.React = React;
   window.render = render;
+  window.reactForm = form;
 });
 
 Template.hello.helpers({
